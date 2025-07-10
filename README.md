@@ -1,8 +1,8 @@
 # Python
-📊 Python Data Science & Data Analytics Repository
+📊 Python Data Science & Data Analytics Repository==>
 Welcome! This repository showcases Python-based projects, examples, and reusable scripts that illustrate core concepts in Data Science and Data Analytics.
 
-🗂️ Contents
+🗂️ Contents :-
 ✅ Data Cleaning & Preprocessing
 -Handling missing values
 -Data transformation & encoding
@@ -24,7 +24,7 @@ Welcome! This repository showcases Python-based projects, examples, and reusable
 -Reusable Python scripts
 -Custom functions to streamline data workflows
 
-🛠️ Technologies Used
+🛠️ Technologies Used :-
 Python
 pandas
 NumPy
