@@ -445,6 +445,157 @@ obj={
 li=obj.get('name')
 print(li[3])
 '''
+'''
+'''
+obj={
+    'name':'bahskar',
+    'email':'bahskar@',
+    'mobile':876271621,
+    }
+print(obj)
+'''
+#1.add() -it is used to add one more key and value pair
+ #dict['key']=value
+'''
+obj={
+    'name':'bhaskar',
+    'emial':'bhaskar@',
+    'mobile':863726786,
+    }
+obj['city']='Vizag'
+obj['state']='AP'
+print(obj)
+'''
+#2.pop() -it is used to delete particular value based on the key
+ #dict.pop(key)
+'''
+obj={
+    'name':'bhaskar',
+    'emial':'bhaskar@',
+    'mobile':863726786,
+    }
+obj.pop('name')
+obj.pop('mobile')
+print(obj)
+'''
+#3.update() -it is used to update particular value based on the key
+ #dict.update({'key':value})
+'''
+obj={
+    'name':'bhaskar',
+    'email':'bhaskar@',
+    'mobile':863726786,
+    }
+obj.update({'name':'Moorthy'})
+obj.update({'email':'Moorthy@'})
+print(obj)
+'''
+'''
+=====Operators====
+operators are the symbols todo some mathematical or logical operations
 
+5 types
+#1.Arithmetic operator
+#2.comparision operator
+#3.logical operator
+#4.membership operator
+#5.identity operator
+
+====1.Arithmetic operator===
+Mathematical calculations
++,-,,/,*,%
+'''
+'''
+a=10
+b=20
+print(a+b)
+print(a-b)
+print(a*b)
+print(b/a)
+print(a**b)
+print(4%2)
+print(6%2)
+print(7%2)
+#even remainder by 2 =0
+#odd remainder by 2  =1
+'''
+'''
+===2.comparision operator===
+-it is used to compare the values
+-it will return as a boolean
+<,<=,>,>=,!=,==
+'''
+'''
+a=100
+b=200
+print(a<b)
+print(a<=b)
+print(a>b)
+print(a>=b)
+print(a!=b)
+'''
+#equal -it is used to check the value and data type also
+'''
+x=10
+y=10
+print(x==y)
+'''
+'''
+====3.logical operator====
+and -&& , or -||
+
+and =if both operators are true -condition becomes true
+or  =if any one operators are true -condition becomes true
+'''
+'''
+x=100
+y=200
+z=300
+
+print(x<=100 and y>=200 and z>=300)
+print(x<100 or y>200 or z<300)
+'''
+'''
+=====4.Membership operator=====
+-it is used to check the sequence
+-it will return as a boolean
+-in,not in
+'''
+'''
+x='hello'
+print('h' in x)
+print('h' not in x)
+print('H' in x)
+print('H' not in x)
+'''
+'''
+li=['a','b','c','d','e']
+print('a' in li)
+print('A' in li)
+print('A' not in li)
+'''
+'''
+t=('a','b','e','d')
+print('a' in t)
+print('a' not in t)
+'''
+'''
+===5.identity operator===
+-it is used to check the memory location
+-it will return as a boolean
+-is,is not
+'''
+'''
+x=10
+y=20
+print(x is y)
+print(x is not y)
+'''
+'''
+x=10
+y=20
+x=y
+print(x is y)
+'''
 
 
